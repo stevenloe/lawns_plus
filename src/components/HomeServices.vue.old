@@ -1,0 +1,119 @@
+<template>
+  <div class="w-full">
+    <div class="relative aspect-w-4 aspect-h-10 md:aspect-h-3">
+      <div class="absolute z-30 flex w-full h-full">
+        <div
+          class="z-30 w-full h-full px-12 py-12 md:grid grid-cols-2 grid-rows-1 gap-8"
+        >
+          <!--  white box left -->
+          <div class="col-span-1 row-span-1 bg-white p-6">
+            <!-- masonry -->
+            <div class="foo grid grid-cols-12 grid-rows-12 gap-2 h-full">
+              <!-- row 1 -->
+              <div class="col-span-12 row-span-7 bg-indigo-100 overflow-hidden">
+                <img
+                  alt="Carpenter building custom shelves"
+                  class="object-cover min-h-full"
+                  src="/home/home-services-1.jpg"
+                />
+              </div>
+
+              <!-- row 2 -->
+              <div class="col-span-8 row-span-2 bg-pink-200 overflow-hidden">
+                <img
+                  alt="Carpenter building custom shelves"
+                  class="object-cover min-w-full min-h-full"
+                  src="/img/home/home-services-2.jpg"
+                />
+              </div>
+
+              <div class="col-span-4 row-span-2 bg-pink-300 overflow-hidden">
+                <img
+                  alt="Carpenter building custom shelves"
+                  class="object-cover min-w-full min-h-full"
+                  src="/img/home/home-services-3.jpg"
+                />
+              </div>
+
+              <!-- row 3 -->
+              <div class="col-span-6 row-span-3 bg-green-100 overflow-hidden">
+                <img
+                  alt="Carpenter building custom shelves"
+                  class="object-cover min-w-full min-h-full"
+                  src="/img/home/home-services-4.jpg"
+                />
+              </div>
+              <div class="col-span-6 row-span-3 bg-green-400 overflow-hidden">
+                <img
+                  alt="Carpenter building custom shelves"
+                  class="object-cover min-w-full min-h-full"
+                  src="/img/home/home-services-5.jpg"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- white box right -->
+          <div class="bg-white col-span-1 md:h-full p-6">
+            <h1 class="text-3xl font-semibold text-yellow-900 mb-2">
+              HOME SERVICES
+            </h1>
+            <p class="mb-4">
+              With 25 years of residential construction & facilities management
+              experience, we have what it takes to handle your project.
+            </p>
+            <!-- <p class="mb-4">
+              Recent jobs include: building an area divider wall for a homeowner
+              in Merrit, adding a deck to a home in Arapahoe, creating a custom
+              built-in desk for a business in Oriental, and replacing a hot
+              water heater.
+            </p>
+            <p class="mb-4">what else ?</p> -->
+
+            <ul>
+              <li class="brand-green-text check-sm font-semibold ">LIGHT CARPENTRY</li> 
+              <li class="brand-green-text check-sm font-semibold ">PLUMBING</li> 
+              <li class="brand-green-text check-sm font-semibold ">TILE</li> 
+              <li class="brand-green-text check-sm font-semibold ">GUTTER & ROOFLINE CLEANING</li> 
+              <li class="brand-green-text check-sm font-semibold ">ESTATE CLEAN OUTS</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- background image -->
+      <div class="absolute top-0 right-0 block w-full h-full shadow-lg">
+        <img
+          alt="Home Services"
+          class="object-cover min-w-full h-full"
+          src="/home/bg-home-services.jpg"
+        />
+      </div>
+    </div>
+  </div>
+</template>
+
+
+<style scoped>
+h3 {
+  color: rgb(175, 211, 34);
+}
+
+/* .check-sm {
+    margin-bottom: 1.1rem;
+    background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzEiIGhlaWdodD0iMzMiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTI4LjcwOC42NzZjLTEuMzU1LS44ODEtMi44NjYuODE4LTMuNzUxIDEuODI1LTIuMDMyIDIuMzkyLTMuNzUxIDUuMTYtNS42OCA3LjY3OC0yLjEzNSAyLjc3LTQuMTE1IDUuNTM4LTYuMzAzIDguMjQ0LTEuMjUgMS41MS0yLjYwNSAzLjE0Ny0zLjQzOSA1LjAzNS0xLjg3NS0yLjIwMy0zLjQ5LTQuNTk0LTUuNTc1LTYuNTQ1LTEuNTEtMS4zODUtNC4wMTEtMi4zOTItMy45Ni45NDQuMTA1IDQuMzQzIDMuMjgzIDkgNS42MjggMTEuOTU3Ljk5IDEuMjU5IDIuMjkyIDIuNTggMy44MDMgMi42NDQgMS44MjMuMTI1IDMuNjk5LTIuNTE4IDQuNzkzLTMuOTY1IDEuOTI4LTIuNTE4IDMuNDktNS4zNSA1LjI2Mi03LjkzIDIuMjkzLTMuMzk4IDQuNjM3LTYuNzM0IDYuODc3LTEwLjE5NUMyNy43NyA4LjIyOCAzMi4yIDIuOTQyIDI4LjcwOC42NzZ6TTIuMjkzIDE3LjYwNmMtLjA1MiAwLS4xMDQgMC0uMjA4LjA2MmEyLjI3MyAyLjI3MyAwIDAxLS41NzMtLjI1MmMuMTU2LS4xMjUuNDE2LS4wNjMuNzgxLjE5eiIgZmlsbD0iIzVENDQyQSIvPjwvc3ZnPg==) no-repeat left top;
+    padding: 0px 0 4px 40px;
+} */
+
+
+.check-sm{
+	margin: 0;
+	padding: 1px 0 1px 40px;
+	list-style: none;
+	background-image: url(/img/global/check-slim.svg);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 23px;
+}
+
+</style>
+
