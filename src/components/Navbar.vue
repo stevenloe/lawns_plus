@@ -36,7 +36,7 @@
         :class="isOpen ? 'block ' : 'hidden'"
         class="absolute justify-between w-full px-4 py-6 mt-4 md:py-0 md:flex brand-green-alpha md:mt-0"
       >
-        <NavItem v-for="item in navItems" :key="item.id" :item="item" />
+        <NavItem v-for="item in navItems" :key="item.id" :item="item" @click="onNavClick" />
       </nav>
     </div>
   </header>
@@ -50,16 +50,22 @@ export default {
     return {
       isOpen: false,
       navItems: [
-        { id: 0, text: "Lawn Care", linkUlr: "#" },
-        { id: 1, text: "Home Services", linkUlr: "#" },
-        { id: 2, text: "Landcaping", linkUlr: "#" },
-        { id: 3, text: "Spring & Fall Cleanup", linkUlr: "#" },
-        { id: 4, text: "Power Washing", linkUlr: "#" },
-        { id: 5, text: "About", linkUlr: "#" },
-        { id: 6, text: "Contact", linkUlr: "#" },
+        { id: 0, text: "Lawn Care", url: "#lawn-care" },
+        { id: 1, text: "Home Services", url: "#home-services" },
+        { id: 2, text: "Landcaping", url: "#landscaping" },
+        { id: 3, text: "Spring & Fall Cleanup", url: "#spring-and-fall-cleanup" },
+        { id: 4, text: "Power Washing", url: "#power-washing" },
+        { id: 5, text: "About", url: "#about-lawns-plus" },
+        // { id: 6, text: "Contact", url: "#" },
       ],
     };
   },
   components: { Logo, NavItem },
+  methods: {
+    onNavClick() {
+      console.log(" ON navclick");
+      this.isOpen = false
+    }
+  }
 };
 </script>
