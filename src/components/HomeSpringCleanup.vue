@@ -1,7 +1,7 @@
 <template>
-  <div class="bg-image sm:aspect-w-4 aspect-h-3 sm:aspect-h-5 md:aspect-h-3">
+  <div class="mb-4 bg-image sm:aspect-w-4 aspect-h-3 sm:aspect-h-5 md:aspect-h-3">
     <div class="flex flex-wrap">
-      <h2
+      <h2 id="spring-and-fall-cleanup"
         class="mt-8 mb-2 ml-8 text-4xl font-semibold text-white shadow-text md:text-6xl"
       >
         SPRING & FALL CLEANUP

@@ -1,24 +1,24 @@
 <template>
-  <div class="w-full wood-bg">
+  <div id="home-services" class="w-full wood-bg">
     <div
-      class="w-full h-full p-6 md:p-12 md:grid grid-cols-2 grid-rows-1 gap-8"
+      class="w-full h-full grid-cols-2 grid-rows-1 gap-8 p-6 md:p-12 md:grid"
     >
       <!--  white box left -->
-      <div class="col-span-1 row-span-1 bg-white p-3 md:p-6">
+      <div class="col-span-1 row-span-1 p-3 bg-white md:p-6">
 
         <!-- image grid screens 767 px wide and below -->
         <div v-if="isMobile" class="h-full">
             <img
               alt="Carpenter building custom shelves"
-              class="object-cover h-48 sm:h-56 w-full"
+              class="object-cover w-full h-48 sm:h-56"
               src="/img/home/home-services-4.jpg"
             />
         </div>
 
         <!-- image grid screen 768px wide and above-->
-        <div v-else class="grid grid-cols-12 grid-rows-12 gap-2 h-full">
+        <div v-else class="grid h-full grid-cols-12 gap-2 grid-rows-12">
           <!-- row 1 -->
-          <div class="col-span-12 row-span-7 bg-indigo-100 overflow-hidden">
+          <div class="col-span-12 overflow-hidden bg-indigo-100 row-span-7">
             <img
               alt="Carpenter building custom shelves"
               class="object-cover min-h-full"
@@ -27,7 +27,7 @@
           </div>
 
           <!-- row 2 -->
-          <div class="col-span-8 row-span-2 bg-pink-200 overflow-hidden">
+          <div class="col-span-8 row-span-2 overflow-hidden bg-pink-200">
             <img
               alt="Carpenter building custom shelves"
               class="object-cover min-w-full min-h-full"
@@ -35,7 +35,7 @@
             />
           </div>
 
-          <div class="col-span-4 row-span-2 bg-pink-300 overflow-hidden">
+          <div class="col-span-4 row-span-2 overflow-hidden bg-pink-300">
             <img
               alt="Carpenter building custom shelves"
               class="object-cover min-w-full min-h-full"
@@ -44,14 +44,14 @@
           </div>
 
           <!-- row 3 -->
-          <div class="col-span-6 row-span-3 bg-green-100 overflow-hidden">
+          <div class="col-span-6 row-span-3 overflow-hidden bg-green-100">
             <img
               alt="Carpenter building custom shelves"
               class="object-cover min-w-full min-h-full"
               src="/img/home/home-services-4.jpg"
             />
           </div>
-          <div class="col-span-6 row-span-3 bg-green-400 overflow-hidden">
+          <div class="col-span-6 row-span-3 overflow-hidden bg-green-400">
             <img
               alt="Carpenter building custom shelves"
               class="object-cover min-w-full min-h-full"
@@ -62,9 +62,9 @@
       </div>
 
       <!-- white box right -->
-      <div class="bg-white col-span-1 md:h-full p-6 pt-0 md:pt-6">
-        <h1
-          class="text-3xl md:text-4xl lg:text-5xl font-semibold text-yellow-900 mb-2"
+      <div class="col-span-1 p-6 pt-0 bg-white md:h-full md:pt-6">
+        <h1 
+          class="mb-2 text-3xl font-semibold text-yellow-900 md:text-4xl lg:text-5xl"
         >
           HOME SERVICES
         </h1>

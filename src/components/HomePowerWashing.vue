@@ -1,8 +1,8 @@
 <template>
-  <div class="mb-2">
+  <div id="power-washing" class="mb-2">
     <div class="bg-image sm:aspect-w-4 aspect-h-4 sm:aspect-h-5 md:aspect-h-3">
       <div class="flex flex-wrap">
-        <h2
+        <h2 
           class="mt-8 mb-2 ml-8 text-4xl font-semibold text-white shadow-text md:text-6xl"
         >
           POWER WASHING
@@ -72,8 +72,6 @@ li {
 li:not(:first-child) {
     margin-left: 0.3rem;
 }
-
-
 
 img {
   max-height: 100%;

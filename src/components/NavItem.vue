@@ -1,7 +1,7 @@
 <template>
   <a
     :href="item.url"
-    class="block py-2 px-2 md:py-1 text-white  font-semibold rounded hover:bg-green-800"
+    class="block px-2 py-2 font-semibold text-white rounded md:py-1 hover:bg-green-800"
     >{{item.text}}</a
   >
 </template>
