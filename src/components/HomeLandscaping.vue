@@ -1,9 +1,9 @@
 <template>
-  <div id="landscaping" class="w-full pt-4">
+  <div class="w-full pt-4">
     <div class="relative bg-green-700 aspect-w-4 aspect-h-6 sm:aspect-h-5 md:aspect-h-3">
       <div class="absolute z-30 flex w-full h-full">
-        <div class="relative z-30 w-full px-6 py-8 mx-6 text-white shadow-none">
-          <h1 class="mb-5 text-3xl font-semibold md:text-5xl lg:text-6xl shadow-text">LANDSCAPING</h1>
+        <div class="relative z-30 w-full px-6 py-10 mx-6 text-white shadow-none md:py-16">
+          <h1 class="mb-5 text-3xl font-semibold md:text-5xl lg:text-6xl shadow-text md:leading-8">LANDSCAPING</h1>
 
           <div class="sm:text-xl md:text-2xl lg:text-4xl">
           <h3 class="font-bold">Mulch, Pine Straw & Decorative Rock</h3>
@@ -31,7 +31,7 @@
         <img
           alt="Contact Us"
           class="object-cover h-full min-w-full"
-          src="/img/home/istock-bg-landscaping.png"
+          src="/img/home/landscaping-bg2.jpg"
         />
       </div>
     </div>

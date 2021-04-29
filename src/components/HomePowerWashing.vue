@@ -18,7 +18,7 @@
         </div>
       </div>
     </div>
-    <ul>
+    <ul class="mt-1">
   <li>
     <img src="/img/home/power-washing1.jpg" alt="Power washing a walkway in Arapahoe, North Carolina" loading="lazy">
   </li>
@@ -48,7 +48,7 @@
 
 <style scoped>
 .bg-image {
-  background: url("/img/home/powerwash1-istockphoto-184370884-1024x1024.jpg");
+  background: url("/img/home/power-washing.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }

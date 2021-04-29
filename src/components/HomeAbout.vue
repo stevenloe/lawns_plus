@@ -36,8 +36,8 @@
           src="/img/home/home-about-dave-tractor.jpg"
           alt="Man on tractor clearing brush"
         />
-        <div class="w-5/6 -mt-12 font-medium text-white bg-contact">
-          <div class="px-8 py-12 border-lime">
+        <div class="w-5/6 -mt-12 font-medium text-white bg-contact border-lime">
+          <div class="px-8 py-12">
             <h3 class="mb-6">
               At Lawns Plus, our level of commitment knows no limit. We back it
               up with our 100% Satisfaction Guarantee.
@@ -63,11 +63,11 @@
 <style scoped>
 .bg-contact {
   background-image: 
-    /* top, transparent red */ linear-gradient(
+  linear-gradient(
       rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.3)
     ),
-    /* your image */ url(/img/home/home-about-commitment.jpg);
+    url(/img/home/home-about-commitment.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }

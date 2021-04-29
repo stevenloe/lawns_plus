@@ -28,7 +28,7 @@
             <CheckListItem v-for="item in serviceList" :key="item.id" :item="item" />
           </ul>
         <div class="w-full ">
-          <div class="relative bg-blue-300 h-80 ">
+          <div class="relative h-80">
             <div class="absolute z-30 flex w-full h-full">
               <div
                 class="relative z-30 w-full py-4 mx-6 text-white"
@@ -38,7 +38,7 @@
                 <!-- <button class="px-2 text-lg font-bold text-gray-700 shadow-lg bg-blue-50 hover:bg-green-200">Contact Us</button> -->
               </div>
             </div>
-            <div class="absolute top-0 right-0 block w-full h-full shadoe-lg">
+            <div class="absolute top-0 right-0 block w-full h-full shadow-lg">
               <img
                 alt="Contact Us"
                 class="object-cover h-full min-w-full "
@@ -58,15 +58,14 @@
        
           <img
         class="object-cover w-full mb-4 shadow-lg h-1/3"
-        src="/img/home/istockphoto-152981484-1024x1024.jpg"
+        src="/img/home/lawn_care_1578.jpeg"
         alt="Lush Lawn in Merrit North Carolina"
       />
         
-       <div class="overflow-hidden border border-black shadow-lg h-1/3">
-
+       <div class="overflow-hidden shadow-lg h-1/3">
           <img
           class="object-cover min-h-full"
-        src="/img/home/istockphoto-106585287-1024x1024.jpg"
+        src="/img/home/lawn_care_1575_cleanup.jpg"
         alt="Beautiful lawn care results in Arapahoe North Carolina"
       />
        </div>
@@ -85,8 +84,10 @@
           {id: 0, text: 'SPRING & FALL CLEANUP'},
           {id: 1, text: 'MOWING -WEEKLY, BI-WEEKLY, MONTHLY'},
           {id: 2, text: 'WEED CONTROL'},
-          {id: 3, text: 'GUTTER & ROOFLINE THATCHING'},
-          {id: 4, text: 'ESTATE CLEAN OUTS'},
+          {id: 3, text: 'GUTTER & ROOFLINE CLEANING'},
+          {id: 4, text:  'THATCHING'},
+          {id: 5, text:  'BRUSH HOG'},
+          {id: 6, text: 'ESTATE CLEAN OUTS'},
         ]
       }
     },
