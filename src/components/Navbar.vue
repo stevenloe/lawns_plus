@@ -15,6 +15,8 @@
           @click="isOpen = !isOpen"
           type="button"
           class="block text-white hover:text-white focus:text-white focus:outline-none"
+          name="navigation menu"
+          aria-label="Navigation Menu"
         >
           <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
             <path

@@ -1,61 +1,78 @@
 <template>
-  <div id="home-services" class="w-full wood-bg">
+  <div id="home-services" class="w-full mb-4 wood-bg">
     <div
       class="w-full h-full grid-cols-2 grid-rows-1 gap-8 p-6 md:p-12 md:grid"
     >
       <!--  white box left -->
       <div class="col-span-1 row-span-1 p-3 bg-white md:p-6">
-
         <!-- image grid screens 767 px wide and below -->
         <div v-if="isMobile" class="h-full">
-            <img
-              alt="Carpenter building custom shelves"
-              class="object-cover w-full h-48 sm:h-56"
-              src="/img/home/home-services-4.jpg"
-            />
+          <img loading="lazy"
+            alt="Carpenter building custom shelves"
+            class="object-cover w-full h-48 sm:h-56"
+            src="/img/home/home-services-4_h200.jpg"
+            srcset="/img/home/home-services-4_h200.jpg 1x,
+              /img/home/home-services-4_h400.jpg 2x,
+              /img/home/home-services-4_h800.jpg 3x"
+          />
         </div>
 
         <!-- image grid screen 768px wide and above-->
         <div v-else class="grid h-full grid-cols-12 gap-2 grid-rows-12">
           <!-- row 1 -->
-          <div class="col-span-12 overflow-hidden bg-indigo-100 row-span-7">
-            <img
+          <div class="col-span-12 overflow-hidden bg-yellow-800 row-span-7">
+            <img loading="lazy"
               alt="Carpenter building custom shelves"
               class="object-cover min-h-full"
-              src="/img/home/home-services-1.jpg"
+              src="/img/home/home-services-1_1x.jpg"
+              srcset="/img/home/home-services-1_1x.jpg 1x,
+              /img/home/home-services-1_2x.jpg 2x,
+              /img/home/home-services-1_3x.jpg 3x"
             />
           </div>
 
           <!-- row 2 -->
-          <div class="col-span-8 row-span-2 overflow-hidden bg-pink-200">
-            <img
+          <div class="col-span-8 row-span-2 overflow-hidden bg-yellow-800 ">
+            <img loading="lazy"
               alt="Carpenter building custom shelves"
               class="object-cover min-w-full min-h-full"
-              src="/img/home/home-services-2.jpg"
+              src="/img/home/home-services-2_1x.jpg"
+              srcset="/img/home/home-services-2_1x.jpg 1x,
+              /img/home/home-services-2_2x.jpg 2x,
+              /img/home/home-services-2_3x.jpg 3x"
             />
           </div>
 
-          <div class="col-span-4 row-span-2 overflow-hidden bg-pink-300">
-            <img
+          <div class="col-span-4 row-span-2 overflow-hidden bg-yellow-700 ">
+            <img loading="lazy"
               alt="Carpenter building custom shelves"
               class="object-cover min-w-full min-h-full"
-              src="/img/home/home-services-3.jpg"
+              src="/img/home/home-services-3_1x.jpg"
+              srcset="/img/home/home-services-3_1x.jpg 1x,
+              /img/home/home-services-3_2x.jpg 2x,
+              /img/home/home-services-3_3x.jpg 3x"
             />
           </div>
 
           <!-- row 3 -->
-          <div class="col-span-6 row-span-3 overflow-hidden bg-green-100">
-            <img
+          <div class="col-span-6 row-span-3 overflow-hidden bg-yellow-800 ">
+            <img loading="lazy"
               alt="Carpenter building custom shelves"
               class="object-cover min-w-full min-h-full"
-              src="/img/home/home-services-4.jpg"
+              src="/img/home/home-services-4_h200.jpg"
+              srcset="/img/home/home-services-4_h200.jpg 1x,
+              /img/home/home-services-4_h400.jpg 2x,
+              /img/home/home-services-4_h800.jpg 3x"
             />
           </div>
-          <div class="col-span-6 row-span-3 overflow-hidden bg-green-400">
-            <img
+          <div class="col-span-6 row-span-3 overflow-hidden bg-yellow-700 ">
+            <img loading="lazy"
               alt="Carpenter building custom shelves"
               class="object-cover min-w-full min-h-full"
-              src="/img/home/home-services-5.jpg"
+              src="/img/home/home-services-5_h200.jpg"
+              srcset="/img/home/home-services-5_h200.jpg 1x,
+              /img/home/home-services-5_h400.jpg 2x,
+              /img/home/home-services-5_h800.jpg 3x"
             />
           </div>
         </div>
@@ -63,7 +80,7 @@
 
       <!-- white box right -->
       <div class="col-span-1 p-6 pt-0 bg-white md:h-full md:pt-6">
-        <h1 
+        <h1
           class="mb-2 text-3xl font-semibold text-yellow-900 md:text-4xl lg:text-5xl"
         >
           HOME SERVICES
@@ -129,9 +146,13 @@ export default {
 h3 {
   color: rgb(175, 211, 34);
 }
-
 .wood-bg {
-  background: url(/img/home/bg-home-services.jpg);
+  background: url(/img/home/bg-home-services_500.jpg);
+}
+@media (min-width: 768px) {
+  .wood-bg {
+    background: url(/img/home/bg-home-services_1000.jpg);
+  }
 }
 </style>
 

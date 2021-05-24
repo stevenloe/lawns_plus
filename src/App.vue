@@ -1,13 +1,6 @@
 <template>
   <main>
     <PageHeader />
-    <!-- <header class="bg-green-400 shadow" v-if="$route.meta.title">
-      <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8"></div>
-      <h1 class="text-3xl font-bold leading-tight text-gray-900">
-        {{ $route.meta.title }}
-      </h1>
-    </header> -->
-
     <router-view />
   </main>
 </template>

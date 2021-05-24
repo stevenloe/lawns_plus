@@ -13,13 +13,13 @@ export default defineComponent({
       <div
         class="max-w-screen-xl px-4 py-12 mx-auto sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between"
       >
-        <h2
+        <h1
           class="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 sm:text-4xl sm:leading-10"
         >
           About Page
           <br />
           <span class="text-indigo-600">About Laws Plus Property</span>
-        </h2>
+        </h1>
         <div class="flex mt-8 lg:flex-shrink-0 lg:mt-0">
           <div class="inline-flex rounded-md shadow">
             <router-link

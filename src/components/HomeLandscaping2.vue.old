@@ -6,20 +6,20 @@
           <h1 class="mb-5 text-3xl font-semibold shadow-text">LANDSCAPING</h1>
 
           <div class="sm:text-xl md:text-2xl lg:text-4xl">
-          <h3 class="font-bold">Mulch, Pine Straw & Decorative Rock</h3>
+          <h2 class="font-bold">Mulch, Pine Straw & Decorative Rock</h2>
 
           <p class="mb-4">
             Let us shovel it for you! Take back your weekend and let Lawns Plus
             install the mulch or decorative rock of your choice.
           </p>
 
-          <h3 class="font-bold">Hedge & Tree Trimming</h3>
+          <h2 class="font-bold">Hedge & Tree Trimming</h2>
           <p class="mb-4">
             We’ll keep you trees and shrubs looksing as good as the day they
             were planted.
           </p>
 
-          <h3 class="font-bold">Driveway Material</h3>
+          <h2 class="font-bold">Driveway Material</h2>
           <p class="mb-4">
             We can create a new drivaway for your home or business. We can apply
             new material to your existing driveway.

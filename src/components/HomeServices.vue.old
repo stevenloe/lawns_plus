@@ -3,14 +3,14 @@
     <div class="relative aspect-w-4 aspect-h-10 md:aspect-h-3">
       <div class="absolute z-30 flex w-full h-full">
         <div
-          class="z-30 w-full h-full px-12 py-12 md:grid grid-cols-2 grid-rows-1 gap-8"
+          class="z-30 w-full h-full grid-cols-2 grid-rows-1 gap-8 px-12 py-12 md:grid"
         >
           <!--  white box left -->
-          <div class="col-span-1 row-span-1 bg-white p-6">
+          <div class="col-span-1 row-span-1 p-6 bg-white">
             <!-- masonry -->
-            <div class="foo grid grid-cols-12 grid-rows-12 gap-2 h-full">
+            <div class="grid h-full grid-cols-12 gap-2 foo grid-rows-12">
               <!-- row 1 -->
-              <div class="col-span-12 row-span-7 bg-indigo-100 overflow-hidden">
+              <div class="col-span-12 overflow-hidden bg-indigo-100 row-span-7">
                 <img
                   alt="Carpenter building custom shelves"
                   class="object-cover min-h-full"
@@ -19,7 +19,7 @@
               </div>
 
               <!-- row 2 -->
-              <div class="col-span-8 row-span-2 bg-pink-200 overflow-hidden">
+              <div class="col-span-8 row-span-2 overflow-hidden bg-pink-200">
                 <img
                   alt="Carpenter building custom shelves"
                   class="object-cover min-w-full min-h-full"
@@ -27,7 +27,7 @@
                 />
               </div>
 
-              <div class="col-span-4 row-span-2 bg-pink-300 overflow-hidden">
+              <div class="col-span-4 row-span-2 overflow-hidden bg-pink-300">
                 <img
                   alt="Carpenter building custom shelves"
                   class="object-cover min-w-full min-h-full"
@@ -36,14 +36,14 @@
               </div>
 
               <!-- row 3 -->
-              <div class="col-span-6 row-span-3 bg-green-100 overflow-hidden">
+              <div class="col-span-6 row-span-3 overflow-hidden bg-green-100">
                 <img
                   alt="Carpenter building custom shelves"
                   class="object-cover min-w-full min-h-full"
                   src="/img/home/home-services-4.jpg"
                 />
               </div>
-              <div class="col-span-6 row-span-3 bg-green-400 overflow-hidden">
+              <div class="col-span-6 row-span-3 overflow-hidden bg-green-400">
                 <img
                   alt="Carpenter building custom shelves"
                   class="object-cover min-w-full min-h-full"
@@ -54,8 +54,8 @@
           </div>
 
           <!-- white box right -->
-          <div class="bg-white col-span-1 md:h-full p-6">
-            <h1 class="text-3xl font-semibold text-yellow-900 mb-2">
+          <div class="col-span-1 p-6 bg-white md:h-full">
+            <h1 class="mb-2 text-3xl font-semibold text-yellow-900">
               HOME SERVICES
             </h1>
             <p class="mb-4">
@@ -71,11 +71,11 @@
             <p class="mb-4">what else ?</p> -->
 
             <ul>
-              <li class="brand-green-text check-sm font-semibold ">LIGHT CARPENTRY</li> 
-              <li class="brand-green-text check-sm font-semibold ">PLUMBING</li> 
-              <li class="brand-green-text check-sm font-semibold ">TILE</li> 
-              <li class="brand-green-text check-sm font-semibold ">GUTTER & ROOFLINE CLEANING</li> 
-              <li class="brand-green-text check-sm font-semibold ">ESTATE CLEAN OUTS</li>
+              <li class="font-semibold brand-green-text check-sm ">LIGHT CARPENTRY</li> 
+              <li class="font-semibold brand-green-text check-sm ">PLUMBING</li> 
+              <li class="font-semibold brand-green-text check-sm ">TILE</li> 
+              <li class="font-semibold brand-green-text check-sm ">GUTTER & ROOFLINE CLEANING</li> 
+              <li class="font-semibold brand-green-text check-sm ">ESTATE CLEAN OUTS</li>
             </ul>
           </div>
         </div>
@@ -84,7 +84,7 @@
       <div class="absolute top-0 right-0 block w-full h-full shadow-lg">
         <img
           alt="Home Services"
-          class="object-cover min-w-full h-full"
+          class="object-cover h-full min-w-full"
           src="/home/bg-home-services.jpg"
         />
       </div>
@@ -117,3 +117,7 @@ h3 {
 
 </style>
 
+
+Offshore-Cruising-Companion-by-John-Neal-&-Amanda-Swan-Neal
+
+http://mahina.com/wp-content/uploads/2021/04/Offshore-Cruising-Companion-by-John-Neal-&-Amanda-Swan-Neal.pdf

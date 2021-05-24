@@ -18,10 +18,10 @@
         </div>
 
         <div class="w-full -mt-16 text-center">
-          <div class="text-base text-center text-white md:text-lg">
+          <div class="text-base text-xl font-semibold text-center text-white md:text-4xl">
             Prouldy Serving Pamlico County
           </div>
-          <div class="text-base text-center text-white md:text-lg">
+          <div class="text-base text-center text-white md:text-4xl">
             Licensed & Insured
           </div>
         </div>
@@ -46,9 +46,20 @@ export default {
 
 
 <style scoped>
+
+
 .hero-image {
-  background: url("/img/hero/bg-home-hero.jpg");
+  background: url("/img/hero/bg-home-hero_1000.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+
+@media (min-width: 950px) {
+    .hero-image {
+      background: url("/img/hero/bg-home-hero_1440.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
 }
 </style>
