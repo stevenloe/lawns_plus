@@ -14,12 +14,8 @@
       (252) 514-8196
     </address>
     <div class="px-8 mt-12 text-gray-800">
-      <a class="hover:text-black" href="https://stevenloe.com"
-        >Custom web design & developement by
-        <span class="hover:border-b-2 hover:border-gray-300">
-          Steven Loe</span
-        ></a
-      >
+      Designed & developed in North Carolina by Steven Loe
+      
     </div>
 
     <div>
