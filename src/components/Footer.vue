@@ -13,7 +13,7 @@
       Oriental, NC 28571 <br />
       (252) 514-8196
     </address>
-    <div class="px-8 mt-12 text-gray-800">
+    <div class="px-8 mt-12 text-sm text-gray-800">
       Designed & developed in North Carolina by Steven Loe
       
     </div>
